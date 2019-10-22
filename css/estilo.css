@@ -1,0 +1,93 @@
+body{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #000;
+}
+
+.navbar .col{
+  height: 100px;
+  bottom: 0px;
+}
+
+i{
+	transition: .8s;
+}
+i:hover{
+	text-shadow: 0px 5px 5px rgba(0,0,0,0.72);
+  	transition: .5s;
+	margin-bottom: 60px;
+}
+
+.fa-spa:hover{
+	color: #2196f3!important;
+}
+.fa-sun:hover{
+	color: #e8d83d!important;
+}
+.fa-canadian-maple-leaf:hover{
+	color: #ffc965!important;
+}
+.fa-holly-berry:hover{
+	color: #b2b7bd!important;
+}
+
+.bg-images #bg-image-01,
+.bg-images #bg-image-02,
+.bg-images #bg-image-03,
+.bg-images #bg-image-04,
+.bg-images #bg-image-05{
+	background-size: cover;
+	height: 100vh;
+}
+#bg-image-01{
+	background: url(../imagens/primavera.jpg) center;
+}
+#bg-image-02{
+	background: url(../imagens/verao.jpg) center;
+}
+#bg-image-03{
+	background: url(../imagens/outono.jpg) center;
+}
+#bg-image-04{
+	background: url(../imagens/inverno.jpg) center;
+}
+
+
+/* -------------------------- media queires -------------------------- */
+/* CLASSE ESPECIAL PARA A FONTE DO PROGRESS CIRCLE "HTML E CSS" */
+@media screen and (min-width: 1441px) and (max-width: 2560px){
+  	.navbar .col{
+		height: 200px;
+	}
+}
+
+/* monitores com largura de até 991px */
+@media screen and (max-width: 991.98px) {
+  
+}
+
+/* tablets com largura de até até 767px */
+@media screen and (max-width: 767.98px) {
+  
+}
+
+/* celulares com largura de até 575px */
+@media screen and (max-width: 575.98px) {
+	h1.display-1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	.col{
+		width: 20%;
+	}
+	.navbar .col{
+		height: 120px;
+	}
+	.navbar .col {
+	    height: 90px;
+	}
+	i.fa-4x{
+		font-size: 40px;
+	}
+}
